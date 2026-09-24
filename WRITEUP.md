@@ -11,13 +11,13 @@ answer; the follow-up slots at the end are optional.
 
 Answered before anything runs. Claude writes them in as you said them, and they stay as written.
 
-**1. Once people can see the counts, which artist wins most often?** XXXX
+**1. Once people can see the counts, which artist wins most often?** 1. the one who starts with the most downloads, or the first one most people download.
 
-**2. Does inequality rise or fall with social influence?** XXXX
+**2. Does inequality rise or fall with social influence?** rise
 
-**3. Does the best artist ever lose a world?** XXXX
+**3. Does the best artist ever lose a world?** yes
 
-**4. Can a recommender lower inequality without lowering fidelity to true taste?** XXXX
+**4. Can a recommender lower inequality without lowering fidelity to true taste?** yes
 
 ## Part 1. Users on their own
 
