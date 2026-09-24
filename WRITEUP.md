@@ -54,7 +54,7 @@ Code: `my_choice.py`, `hand_check.py`, `part3_influence.py`. Figures: `figures/p
 
 **What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** The two curves show a significantly more curvilinear rise with social influence.
 
-**Revisited: which of your Part 0 predictions you would now change, and why:** XXXX
+**Revisited: which of your Part 0 predictions you would now change, and why:** I stand by my predictions, although the problem of lowering inequality without lowering fidelity seems particularly challenging and like a high-level problem.
 
 ## Part 4. Your recommender
 
