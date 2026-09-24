@@ -52,7 +52,7 @@ Code: `my_choice.py`, `hand_check.py`, `part3_influence.py`. Figures: `figures/p
 
 **What you changed in your rule, at the hand check or after the run, or "nothing":** XXXX
 
-**What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** XXXX
+**What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** The two curves show a significantly more curvilinear rise with social influence.
 
 **Revisited: which of your Part 0 predictions you would now change, and why:** XXXX
 

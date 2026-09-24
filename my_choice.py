@@ -23,4 +23,24 @@ def my_choice(shown, counts, social_influence):
     TRUE_POPULARITY, which gives each artist its hidden true popularity. `step` labels each
     stage of the rule, so that hand_check.py can show it.
     """
-    raise NotImplementedError("Part 3: design your rule with Claude first")
+    taste = step("taste: hidden true popularity", [TRUE_POPULARITY[artist] for artist in shown])
+    visible_counts = step(
+        "downloads: the counts shown to the user, with a tiny floor for zero-download artists",
+        [max(counts.get(artist, 0), 0.01) for artist in shown],
+    )
+    social_mix = step(
+        "social mix: a coin toss at 0.5, but popularity dominates otherwise",
+        [
+            ((1 - social_influence) * taste_i) + (social_influence * count_i)
+            for taste_i, count_i in zip(taste, visible_counts)
+        ],
+    )
+    position = step(
+        "position: a small boost for artists nearer the top of the list",
+        [1.2 - (0.1 * i) for i in range(len(shown))],
+    )
+    weighted = step(
+        "final weights: social mix times position",
+        [social_i * position_i for social_i, position_i in zip(social_mix, position)],
+    )
+    return step("choice chances: normalize the final weights", normalize(weighted))
