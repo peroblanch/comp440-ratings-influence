@@ -23,19 +23,19 @@ Answered before anything runs. Claude writes them in as you said them, and they 
 
 Code: `part1_independent.py`. Figure: `figures/part1_strip.png`.
 
-**What Gini and unpredictability each show, in your own words:** XXXX
+**What Gini and unpredictability each show, in your own words:** Gini is a measure of how uneven the artist share is across worlds, unpredictability is a measure of how it changes from world to world, unpredictability measures how the artist share changes across worlds.
 
-**What the figure shows, one sentence:** XXXX
+**What the figure shows, one sentence:** Then, each artist has a spread of world outcomes, relative to a true outcome diamond
 
 ## Part 2. The recommender
 
 Code: `recommender.py`, `part2_recommender.py`. Figure: `figures/part2_strip.png`.
 
-**The capabilities and limitations of `top_five`, in your words:** XXXX
+**The capabilities and limitations of `top_five`, in your words:** The top 5 function always provides some 5 most downloaded artists, but how informative this is is limited because if artists have insufficient downloads the list fills randomly. In addition, there is no nuance or recommender happening.
 
 **What Claude corrected in your reading, in your words, or "nothing":** XXXX
 
-**What changed against Part 1, one sentence:** XXXX
+**What changed against Part 1, one sentence:** Artists had more highly variable spreads less accurate to their true popularity or share, as well as every artist having "starve" worlds with zero marketshare if they weren't initially chosen at random.
 
 ## Part 3. Social influence
 
