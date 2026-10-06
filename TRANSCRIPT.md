@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 98868e64-ed69-46a2-a878-e8fde80b5eee | 2026-10-06T03:22:17.945Z -->
 ## Session `98868e64` — 2026-10-06 03:22:17
 
-*11 user turns. Tool outputs and reasoning omitted.*
+*12 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 Part 4 is optional, as per previous. Let's finish part 5, so I can submit
@@ -168,5 +168,34 @@ It should strongly favor bruno mars, with both positional advantage and more dow
 - 🔧 `Edit` — /Users/owenblanchard/CollectiveIntelligence/comp440-ratings-influence/WRITEUP.md
 I wrote this into the "Hand check, before the table" slot. Now let's run the full check.
 - 🔧 `Bash` — Run hand_check.py to show the full table
+```
+Hand check, at social influence 0.5:
+  Bruno Mars     at the top of the list (position 0), 3 downloads, true popularity 50
+  Justin Bieber  below it (position 1), no downloads, true popularity 50
+
+Your rule, step by step, on this case:
+                                                               Bruno Mars  Justin Bieber
+  taste: hidden true popularity                                   50.0000        50.0000
+  downloads: the counts shown to the user, with a tiny floor for zero-download artists
+                                                                   3.0000         0.0100
+  social mix: a coin toss at 0.5, but popularity dominates otherwise
+                                                                  26.5000        25.0050
+  position: a small boost for artists nearer the top of the list
+                                                                   1.2000         1.1000
+  final weights: social mix times position                        31.8000        27.5055
+  choice chances: normalize the final weights                      0.5362         0.4638
+  chances my_choice returns                                        0.5362         0.4638
+```
+
+Does this match what you said?
+
+**User:**
+Yes, although I underestimated the powerful evening out weight of the social mix
+
+**Claude:**
+- 🔧 `Edit` — /Users/owenblanchard/CollectiveIntelligence/comp440-ratings-influence/WRITEUP.md
+I wrote this into "Hand check: whether the table matched" slot.
+
+Next: what shape did you expect the two curves (Gini and unpredictability, against social influence) to have?
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
