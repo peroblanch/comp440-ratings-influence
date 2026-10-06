@@ -69,5 +69,6 @@ Let's submit.
 **Claude:**
 - 🔧 `Skill` — checkpoint
 - 🔧 `Bash` — Run run_all.py to check activity completeness
+- 🔧 `Bash` — Run dump_transcript.py to check session recorded
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
