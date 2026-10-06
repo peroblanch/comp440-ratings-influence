@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 98868e64-ed69-46a2-a878-e8fde80b5eee | 2026-10-06T03:22:17.945Z -->
 ## Session `98868e64` — 2026-10-06 03:22:17
 
-*6 user turns. Tool outputs and reasoning omitted.*
+*7 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 Part 4 is optional, as per previous. Let's finish part 5, so I can submit
@@ -70,5 +70,30 @@ Let's submit.
 - 🔧 `Skill` — checkpoint
 - 🔧 `Bash` — Run run_all.py to check activity completeness
 - 🔧 `Bash` — Run dump_transcript.py to check session recorded
+```
+Wrote TRANSCRIPT.md: 1 session(s).
+1 session(s) found; this session in TRANSCRIPT.md: yes.
+```
+
+Before we can submit, 6 slots that count are still `XXXX`. These are all from Part 2 and Part 3, which committed as "done" before these were filled — we need to fill them now:
+
+1. Part 2: "What Claude corrected in your reading, in your words, or 'nothing'"
+2. Part 3: "Your rule in your words"
+3. Part 3: "Hand check, before the table: which artist your rule should favor, and by a little or a lot"
+4. Part 3: "Hand check: whether the table matched what you said"
+5. Part 3: "The shape you expect the two curves to have, as you told Claude before the run"
+6. Part 3: "What you changed in your rule, at the hand check or after the run, or 'nothing'"
+
+Let's start with #1: what do you want in the "What Claude corrected" slot — what did Claude correct in your reading of `top_five`'s capabilities and limitations, or "nothing"?
+
+**User:**
+nothing
+
+**Claude:**
+- 🔧 `Edit` — /Users/owenblanchard/CollectiveIntelligence/comp440-ratings-influence/WRITEUP.md
+I wrote this into the Part 2 "What Claude corrected" slot: "nothing".
+
+Next, #2: "Your rule in your words." Let me pull up your rule so you can describe it accurately.
+- 🔧 `Read` — /Users/owenblanchard/CollectiveIntelligence/comp440-ratings-influence/my_choice.py
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
