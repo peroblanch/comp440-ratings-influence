@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 98868e64-ed69-46a2-a878-e8fde80b5eee | 2026-10-06T03:22:17.945Z -->
 ## Session `98868e64` — 2026-10-06 03:22:17
 
-*16 user turns. Tool outputs and reasoning omitted.*
+*17 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 Part 4 is optional, as per previous. Let's finish part 5, so I can submit
@@ -226,5 +226,37 @@ nothing
 - 🔧 `Edit` — /Users/owenblanchard/CollectiveIntelligence/comp440-ratings-influence/WRITEUP.md
 I wrote this into the "What you changed" slot. All 6 slots are now filled — let me re-check.
 - 🔧 `Bash` — Re-run run_all.py to confirm completeness
+```
+measures.py self-check: passed
+part 1: ran, 3.6 s
+part 2: ran, 3.4 s
+part 3: ran, 19.8 s
+part 4 (optional, not counted): stopped: my_recommender is not written yet: Part 4: describe your rule to Claude first
+follow-ups: optional, and not run here; ask Claude for one if you want it
+
+== what is missing ==
+  part 4 slot, optional, not counted: Your rule in words, before any code
+  part 4 slot, optional, not counted: What you expect it to do to inequality, unpredictability and fidelity, as you told Claude before the run
+  part 4 slot, optional, not counted: What it bought and what it cost, one sentence
+  follow-up slot, not counted: What is shown (`followup_shown.py`): which market moved success further from quality
+  follow-up slot, not counted: One assumption (`followup_assumption.py`): the assumption you changed
+  follow-up slot, not counted: One assumption: whether the Part 3 conclusion survived
+  follow-up slot, not counted: Anything else you tried
+  follow-up slot, not counted: Anything else: what it showed
+  nothing, in the parts that count so far.
+
+0 missing in the parts that count so far.
+
+When your work is pushed, submit the form, select "activity", and paste your repo's GitHub URL:
+https://forms.gle/mgKcnqzTGxNaGvteA
+```
+
+Nothing missing in the parts that count. You have uncommitted changes to `WRITEUP.md` from filling those slots — ready to commit?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Commit filled slots
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
