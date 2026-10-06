@@ -68,9 +68,9 @@ Code: `my_recommender.py`, `part4_recommender.py`. Figure: `figures/part4_recomm
 
 ## Part 5. Reflection
 
-**Where this shows up in data you have already handled, or in an interface you use, one sentence:** XXXX
+**Where this shows up in data you have already handled, or in an interface you use, one sentence:** The most direct comparison is the popular on netflix and the netflix algorithms paper, where rankings and popularity metrics needed to be accounted for by an efficient recommender algorithm, but I also think some of these feedback-loop style biases probably also occcurred with tags in HW1.
 
-**A moment Claude was wrong or overconfident, or a judgment you kept for yourself, one sentence:** XXXX
+**A moment Claude was wrong or overconfident, or a judgment you kept for yourself, one sentence:** My spoken in class and sustained judgement is that I think the paper and resulting simulations have unbeleivably low ecological valiidity, which I suppose is a judgement of the paper as a whole. Claude did really well for this assignment
 
 ## Follow-ups
 
