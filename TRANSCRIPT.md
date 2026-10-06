@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 98868e64-ed69-46a2-a878-e8fde80b5eee | 2026-10-06T03:22:17.945Z -->
 ## Session `98868e64` — 2026-10-06 03:22:17
 
-*5 user turns. Tool outputs and reasoning omitted.*
+*6 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 Part 4 is optional, as per previous. Let's finish part 5, so I can submit
@@ -53,5 +53,21 @@ yes
 
 **Claude:**
 - 🔧 `Bash` — Commit Part 5 done
+Committed. Since you're skipping Part 4, here are the optional follow-ups — not graded, and I'll only offer this once:
+
+- **Part 4**, your own recommender
+- **What is shown** (`followup_shown.py`): two markets at the same social influence, see which moved success further from quality
+- **One assumption** (`followup_assumption.py`): change one assumption and see if the Part 3 conclusion survives
+- **More recommenders**: a second and third rule in Part 4's shape, compared
+- **More worlds**: rerun a part with 1,000 worlds instead of 300, to see which numbers move and which just get steadier
+
+Want any of these, or should I move on to submitting?
+
+**User:**
+Let's submit.
+
+**Claude:**
+- 🔧 `Skill` — checkpoint
+- 🔧 `Bash` — Run run_all.py to check activity completeness
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
