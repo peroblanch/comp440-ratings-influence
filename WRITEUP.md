@@ -33,7 +33,7 @@ Code: `recommender.py`, `part2_recommender.py`. Figure: `figures/part2_strip.png
 
 **The capabilities and limitations of `top_five`, in your words:** The top 5 function always provides some 5 most downloaded artists, but how informative this is is limited because if artists have insufficient downloads the list fills randomly. In addition, there is no nuance or recommender happening.
 
-**What Claude corrected in your reading, in your words, or "nothing":** XXXX
+**What Claude corrected in your reading, in your words, or "nothing":** nothing
 
 **What changed against Part 1, one sentence:** Artists had more highly variable spreads less accurate to their true popularity or share, as well as every artist having "starve" worlds with zero marketshare if they weren't initially chosen at random.
 
@@ -42,15 +42,15 @@ Code: `recommender.py`, `part2_recommender.py`. Figure: `figures/part2_strip.png
 Code: `my_choice.py`, `hand_check.py`, `part3_influence.py`. Figures: `figures/part3_gini.png`,
 `figures/part3_unpredictability.png`.
 
-**Your rule in your words:** XXXX
+**Your rule in your words:** The likelihood an artist is selected is based on taste and downloads, relative scale weighted by social influence, with a small positional boost favoring artists higher on the list.
 
-**Hand check, before the table: which artist your rule should favor, and by a little or a lot:** XXXX
+**Hand check, before the table: which artist your rule should favor, and by a little or a lot:** It should strongly favor bruno mars, with both positional advantage and more downloads.
 
-**Hand check: whether the table matched what you said:** XXXX
+**Hand check: whether the table matched what you said:** Yes, although I underestimated the powerful evening out weight of the social mix
 
-**The shape you expect the two curves to have, as you told Claude before the run:** XXXX
+**The shape you expect the two curves to have, as you told Claude before the run:** I wasn't asked to answer this question until the end of this assignment, and I'd already seen the curves. At the time I expected more curvature to the graph, though.
 
-**What you changed in your rule, at the hand check or after the run, or "nothing":** XXXX
+**What you changed in your rule, at the hand check or after the run, or "nothing":** nothing
 
 **What the two curves show against the paper's Figures 1 and 2, in one or two sentences:** The two curves show a significantly more curvilinear rise with social influence.
 
