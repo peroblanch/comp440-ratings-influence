@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 98868e64-ed69-46a2-a878-e8fde80b5eee | 2026-10-06T03:22:17.945Z -->
 ## Session `98868e64` — 2026-10-06 03:22:17
 
-*12 user turns. Tool outputs and reasoning omitted.*
+*13 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 Part 4 is optional, as per previous. Let's finish part 5, so I can submit
@@ -197,5 +197,8 @@ Yes, although I underestimated the powerful evening out weight of the social mix
 I wrote this into "Hand check: whether the table matched" slot.
 
 Next: what shape did you expect the two curves (Gini and unpredictability, against social influence) to have?
+
+**User:**
+I wasn't asked to answer this question until the end of this assignment, and I've already seen the curves.
 
 <!-- end-session: 98868e64-ed69-46a2-a878-e8fde80b5eee -->
